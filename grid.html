@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>grid-box v2</title>
+	<style type="text/css">
+@import url("reset.css");
+@import url("typography.css");
+@import url("grid.css");
+	</style>
+	<style type="text/css" media="screen">
+
+	div[class^=column] > p {
+		font: 60px/100px Helvetica;
+		text-align: center;
+		border: 1px solid #000;
+		border-radius: 5px;
+	}
+
+	</style>
+</head>
+
+<body>
+	
+<div id="body" class="container">
+	
+	<h1>Grid</h1>
+		
+	<div class="row">
+		<div class="column00"><p>100</p></div>
+	</div>
+
+	<div class="row">
+		<div class="column33"><p>33</p></div>
+		<div class="column66"><p>66</p></div>
+	</div>
+
+	<div class="row">
+		<div class="column33"><p>33</p></div>
+		<div class="column33"><p>33</p></div>
+		<div class="column33"><p>33</p></div>
+	</div>
+
+	<div class="row">
+		<div class="column60">
+			<div class="row">
+				<div class="column"><p>60</p></div>
+			</div>
+			<div class="row">
+				<div class="column50"><p>50</p></div>
+				<div class="column50"><p>50</p></div>
+			</div>
+		</div>
+		<div class="column40"><p>40</p></div>
+	</div>
+
+	<div class="row">
+		<div class="column40">
+			<p>40</p>
+		</div>
+		<div class="column60">
+			<div class="row">
+				<div class="column"><p>60</p></div>
+			</div>			
+			<div class="row">
+				<div class="column30"><p>30</p></div>
+				<div class="column70"><p>70</p></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

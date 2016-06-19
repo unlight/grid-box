@@ -1,0 +1,21 @@
+.numeric-list {
+	list-style: decimal;
+	list-style-position: inside;
+	margin: 10px 0;
+}
+
+.normal-list {
+	list-style: disc;
+	list-style-position: inside;
+	margin: 10px 0;
+}
+
+.tree-list {
+	list-style-position: inside;
+}
+
+.tree-list ol, 
+.tree-list ul {
+	list-style-position: inside;
+	margin: 10px 0 10px 40px;
+}

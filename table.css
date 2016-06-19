@@ -1,0 +1,32 @@
+.table {
+	width: 100%;
+}
+
+.table td, 
+.table th {
+	border-color: #eee;
+	border-width: 0px;
+	border-style: solid;
+	padding: 0 4px;
+}
+
+.table thead th,
+.table tbody td {
+	border-bottom-width: 1px;
+}
+
+.striped tbody tr:nth-child(2n+1) {
+	background: #fafafa;
+}
+
+.bordered td,
+.bordered th {
+	border-width: 1px;
+}
+
+.table tr.left th {
+	text-align: left
+}
+
+.condensed {
+}

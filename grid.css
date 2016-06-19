@@ -1,0 +1,83 @@
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+	
+.row {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.row .row {
+	width: auto;
+}
+
+.row + .row {
+	margin: 10px 0;
+}
+
+/* Clear fix for modern browsers */
+.row:before, .row:after {  content: ""; display: table; }
+.row:after { clear:both; }
+
+.column,
+.column00,
+.column33,
+.column66,
+.column05,
+.column10,
+.column15,
+.column20,
+.column25,
+.column30,
+.column35,
+.column40,
+.column44,
+.column50,
+.column50,
+.column55,
+.column60,
+.column65,
+.column70,
+.column75,
+.column80,
+.column85,
+.column90,
+.column95 {
+	box-sizing: border-box;
+	padding: 0 5px;
+	overflow: hidden;
+	float: left;
+}
+
+div[class^=column]:first-of-type {
+	padding-left: 0;
+}
+
+div[class^=column]:last-of-type {
+	padding-right: 0;
+}
+
+.column, .column00  { width: 100% }
+.column33 { width: 33.333% }
+.column66 { width: 66.666% }
+.column05 { width: 5% }
+.column10 { width: 10% }
+.column15 { width: 15% }
+.column20 { width: 20% }
+.column25 { width: 25% }
+.column30 { width: 30% }
+.column35 { width: 35% }
+.column40 { width: 40% }
+.column45 { width: 45% }
+.column50 { width: 50% }
+.column55 { width: 55% }
+.column60 { width: 60% }
+.column65 { width: 65% }
+.column70 { width: 70% }
+.column75 { width: 75% }
+.column80 { width: 80% }
+.column85 { width: 85% }
+.column90 { width: 90% }
+.column95 { width: 95% }

@@ -1,0 +1,138 @@
+body {
+	line-height: 1.3em;
+	font-size: 14px;
+	font-family: 'Lucida Grande', 'Segoe UI', sans-serif;
+	color: #000;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.button {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+a.button {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.invisible {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.deleted {
+	text-decoration: line-through;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+p, .p {
+	margin: 5px 0;
+}
+
+div > p:first-child {
+	margin-top: 0;
+}
+
+div > p:last-child {
+	margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0.5em 0;
+}
+
+.clear {overflow: hidden}
+.clear:before, .clear:after {  content: ""; display: table; }
+.clear:after { clear:both; }
+
+.wrap {
+	margin: 10px;
+}
+
+/* Loading indicators */
+.loading {
+	height: 100px;
+	padding: 0 20px;
+	background: url('images/progress1.gif') center center no-repeat;
+}
+.progress {
+	color: transparent !important;
+	border-color: transparent !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	color: transparent !important;
+	text-shadow: none !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	padding: 0 !important;
+}
+
+.normal-progress {
+	padding-right: 40px;
+	background: url('images/progress1.gif') right bottom no-repeat;
+}
+
+.tiny-progress {
+	padding-right: 25px;
+	background: url('images/progress2.gif') right bottom no-repeat;
+}
+
+.nodecoration {
+	text-decoration: none;
+}
+
+/* Font size */
+
+.tiny {
+	font-size: 60%;
+}
+
+.small {
+	font-size: 80%;
+}
+
+.normal {
+	font-size: 100%;
+}
+
+.medium {
+	font-size: 120%;
+}
+
+.big {
+	font-size: 140%;
+}
+
+.huge {
+	font-size: 180%;
+}
